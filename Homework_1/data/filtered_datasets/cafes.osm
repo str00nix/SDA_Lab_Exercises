@@ -1,0 +1,1076 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmfilter 1.4.5">
+	<bounds minlat="41.9053" minlon="21.2537" maxlat="42.088" maxlon="21.6959"/>
+	<node id="310289760" lat="42.0001541" lon="21.416703" version="5" timestamp="2021-10-25T16:01:06Z" changeset="112954668" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Broz Cafe"/>
+		<tag k="name:en" v="(Still there)"/>
+	</node>
+	<node id="411008299" lat="41.9948867" lon="21.4232268" version="6" timestamp="2016-04-27T16:47:39Z" changeset="38926255" uid="1468248" user="TheBlackMan">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Benneton"/>
+	</node>
+	<node id="411008532" lat="41.9948604" lon="21.4230113" version="6" timestamp="2016-04-27T16:47:39Z" changeset="38926255" uid="1468248" user="TheBlackMan">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="AMG"/>
+	</node>
+	<node id="411009859" lat="41.9955693" lon="21.4253358" version="7" timestamp="2020-11-15T16:09:20Z" changeset="94153884" uid="12177121" user="sarask">
+		<tag k="addr:housenumber" v="24"/>
+		<tag k="addr:street" v="Dimitrija Cupovski"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Strip"/>
+	</node>
+	<node id="441057694" lat="42.0051454" lon="21.4082395" version="4" timestamp="2017-12-22T14:59:27Z" changeset="54843301" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Cafeteria"/>
+	</node>
+	<node id="459666031" lat="42.0069784" lon="21.4139237" version="2" timestamp="2011-08-01T10:55:52Z" changeset="8888661" uid="480785" user="BNicovski">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="459670767" lat="41.9952414" lon="21.4310013" version="6" timestamp="2020-11-15T16:40:24Z" changeset="94155212" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Caffe Skopje"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-23:00"/>
+	</node>
+	<node id="459670881" lat="41.992653" lon="21.429836" version="9" timestamp="2020-11-15T19:08:48Z" changeset="94160955" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Play Cafe"/>
+		<tag k="name:en" v="Play Cafe"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="459672751" lat="41.9939731" lon="21.4164328" version="3" timestamp="2017-10-19T12:06:36Z" changeset="53066891" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="old_name" v="СПА"/>
+	</node>
+	<node id="459673240" lat="41.9934306" lon="21.4162239" version="1" timestamp="2009-08-09T15:14:37Z" changeset="2085678" uid="110560" user="Sasha Petrov">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="9"/>
+	</node>
+	<node id="459752642" lat="41.9984414" lon="21.4373453" version="3" timestamp="2020-11-15T16:47:57Z" changeset="94155494" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Bistro Opera Pub"/>
+		<tag k="opening_hours" v="24/7"/>
+	</node>
+	<node id="459801246" lat="42.0031059" lon="21.3999451" version="5" timestamp="2017-11-28T13:43:34Z" changeset="54149559" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Мартини"/>
+	</node>
+	<node id="459802458" lat="42.0047028" lon="21.4159604" version="8" timestamp="2018-04-21T16:43:58Z" changeset="58294339" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Бугати"/>
+		<tag k="name:en" v="Bugatti"/>
+	</node>
+	<node id="1355292490" lat="42.0009888" lon="21.417262" version="4" timestamp="2012-08-20T19:20:44Z" changeset="12800065" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Кафе Змија"/>
+	</node>
+	<node id="1355306911" lat="42.0007963" lon="21.4175044" version="5" timestamp="2018-11-25T12:49:03Z" changeset="64866120" uid="6970734" user="Dekacc">
+		<tag k="addr:housenumber" v="2"/>
+		<tag k="addr:street" v="Благој Давков"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="coffee_shop"/>
+		<tag k="name" v="Кафе Филипос"/>
+	</node>
+	<node id="1475388233" lat="42.0313055" lon="21.3479915" version="2" timestamp="2013-07-08T21:23:51Z" changeset="16879734" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="is_in" v="Novo Selo"/>
+	</node>
+	<node id="1615830879" lat="42.0034224" lon="21.398346" version="4" timestamp="2018-11-25T10:40:15Z" changeset="64863318" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Fluid"/>
+		<tag k="name:en" v="Fluid"/>
+		<tag k="name:mk" v="Флуид"/>
+	</node>
+	<node id="1752184797" lat="41.997291" lon="21.4091295" version="2" timestamp="2019-05-01T12:35:50Z" changeset="69764527" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="coffee_shop"/>
+		<tag k="name" v="Ли"/>
+		<tag k="name:en" v="Lee"/>
+	</node>
+	<node id="1850511008" lat="42.0582551" lon="21.4484" version="1" timestamp="2012-08-03T20:09:02Z" changeset="12602279" uid="686141" user="dekowow">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Royal"/>
+	</node>
+	<node id="1850511013" lat="42.060135" lon="21.4502266" version="1" timestamp="2012-08-03T20:09:03Z" changeset="12602279" uid="686141" user="dekowow">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Шема"/>
+	</node>
+	<node id="1851476126" lat="41.9915282" lon="21.4504664" version="1" timestamp="2012-08-04T13:12:06Z" changeset="12609282" uid="678915" user="dominator7">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Red Caffe"/>
+	</node>
+	<node id="1860365710" lat="42.0026068" lon="21.4644629" version="2" timestamp="2020-11-16T13:34:56Z" changeset="94205421" uid="2891942" user="trifun">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Аристократ кафе"/>
+		<tag k="name:en" v="Aristokrat cafe"/>
+		<tag k="shop" v="confectionery"/>
+	</node>
+	<node id="1868776879" lat="42.0092296" lon="21.403605" version="2" timestamp="2021-07-03T14:04:19Z" changeset="107355148" uid="7140745" user="MatejMecka">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Outlet Concept Store"/>
+	</node>
+	<node id="1876583691" lat="41.9897212" lon="21.4768613" version="2" timestamp="2016-11-25T10:54:08Z" changeset="43941530" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Кафе Писта"/>
+	</node>
+	<node id="1876584011" lat="41.9894222" lon="21.4758817" version="3" timestamp="2016-11-25T10:54:08Z" changeset="43941530" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Кафе Мамбо"/>
+	</node>
+	<node id="2004975256" lat="41.9851089" lon="21.4659543" version="1" timestamp="2012-11-09T19:04:50Z" changeset="13812936" uid="678915" user="dominator7">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="2054895230" lat="41.9950653" lon="21.4324491" version="5" timestamp="2020-11-15T16:49:38Z" changeset="94155565" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Up Cafe"/>
+		<tag k="opening_hours" v="Mo-Sa 08:00-18:00"/>
+	</node>
+	<node id="2276498829" lat="41.995913" lon="21.4093297" version="2" timestamp="2015-11-11T14:01:59Z" changeset="35239869" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="2298054794" lat="42.0071574" lon="21.3722969" version="6" timestamp="2018-01-17T12:03:59Z" changeset="55519531" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cof" v="cof"/>
+		<tag k="name" v="Badu"/>
+	</node>
+	<node id="2539581007" lat="41.9734649" lon="21.446234" version="2" timestamp="2013-11-19T11:25:28Z" changeset="18991749" uid="1811300" user="goran veljanov">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="name" v="Quatro Caffe"/>
+	</node>
+	<node id="2539581507" lat="41.9732771" lon="21.4456656" version="2" timestamp="2018-08-24T13:22:17Z" changeset="61958881" uid="344903" user="Toyota_79">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="name" v="Bass Cafe"/>
+	</node>
+	<node id="2814545377" lat="41.9955477" lon="21.4308204" version="4" timestamp="2020-11-15T16:56:04Z" changeset="94155840" uid="12177121" user="sarask">
+		<tag k="addr:housenumber" v="1"/>
+		<tag k="addr:street" v="Никола Вапцаров"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="int_name" v="Bokata"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Bocata"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-23:00"/>
+		<tag k="wheelchair" v="limited"/>
+	</node>
+	<node id="2814545378" lat="41.9949424" lon="21.4308588" version="6" timestamp="2020-11-15T16:59:09Z" changeset="94155964" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Coffee Factory 2"/>
+		<tag k="opening_hours" v="Mo-Sa 08:00-01:00"/>
+	</node>
+	<node id="2883877894" lat="41.9885844" lon="21.4534598" version="2" timestamp="2017-07-21T06:30:40Z" changeset="50448769" uid="2689851" user="rogorido">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="internet_access:fee" v="no"/>
+		<tag k="name" v="Палма"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="smoking" v="outside"/>
+		<tag k="wheelchair" v="no"/>
+	</node>
+	<node id="2992591829" lat="42.0017629" lon="21.4370632" version="4" timestamp="2020-11-15T18:08:00Z" changeset="94158825" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:city:en" v="Skopje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="Coffee,_Tea,_cold_drinks"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Mon Frere"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-23:00"/>
+		<tag k="smoking" v="outside"/>
+	</node>
+	<node id="3099553253" lat="41.9608168" lon="21.6274047" version="1" timestamp="2014-09-27T22:08:50Z" changeset="25714764" uid="2037651" user="Francois555">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Cafe-inn"/>
+	</node>
+	<node id="3101725379" lat="41.999241" lon="21.4368849" version="2" timestamp="2020-11-15T17:35:14Z" changeset="94157518" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Old Town"/>
+		<tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+	</node>
+	<node id="3101726037" lat="42.0000003" lon="21.4358699" version="2" timestamp="2020-11-15T17:38:15Z" changeset="94157669" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Nargile Cafe"/>
+		<tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+	</node>
+	<node id="3103985004" lat="41.9958677" lon="21.4330712" version="5" timestamp="2020-11-15T17:39:30Z" changeset="94157729" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Кеј 13 Ноември"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="ice_cream;pizza;pasta"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="internet_access:fee" v="no"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Telekom Trend Lounge Bar"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-24:00"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="smoking" v="separated"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="3341289752" lat="41.9944452" lon="21.4306195" version="7" timestamp="2020-11-15T18:04:00Z" changeset="94158678" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:housenumber" v="41"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Bistro Skopje"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="smoking" v="separated"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="3341289753" lat="41.9938562" lon="21.430365" version="6" timestamp="2020-11-15T18:02:54Z" changeset="94158636" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Gnezdo"/>
+		<tag k="old_name" v="Il Caffè di Roma"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+	</node>
+	<node id="3341289786" lat="41.9929701" lon="21.4302256" version="4" timestamp="2020-11-15T18:02:02Z" changeset="94158601" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Caffe Novo"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-22:00"/>
+	</node>
+	<node id="3341289788" lat="41.9927362" lon="21.4298707" version="5" timestamp="2020-11-15T18:00:10Z" changeset="94158536" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Македонија"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Caffe Bar Dolce Vita"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="3341289790" lat="41.9923772" lon="21.4293734" version="2" timestamp="2020-11-15T17:58:48Z" changeset="94158483" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Даме Груев"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Corsso"/>
+		<tag k="opening_hours" v="24/7"/>
+	</node>
+	<node id="3506696093" lat="42.0041936" lon="21.3909265" version="6" timestamp="2017-12-12T19:49:39Z" changeset="54575867" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="email" v="trendcitymall@caffetrend.mk"/>
+		<tag k="name" v="Trend Food Bar"/>
+		<tag k="name:en" v="Trend Food Bar"/>
+		<tag k="opening_hours" v="08:00-00:00; Fr-Sa 08:00-01:00"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="phone" v="+389 70 306425"/>
+		<tag k="smoking" v="separated"/>
+		<tag k="website" v="http://www.caffetrend.mk/"/>
+	</node>
+	<node id="3663767991" lat="42.0038265" lon="21.415006" version="3" timestamp="2021-02-18T11:13:53Z" changeset="99518116" uid="7140745" user="MatejMecka">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="The Gallery"/>
+		<tag k="opening_hours" v="Mo-Th 07:30-24:00, Fr 07:30-01:00, Sa 08:00-01:00, Su 08:00-24:00"/>
+	</node>
+	<node id="3663767992" lat="42.0039722" lon="21.4151255" version="2" timestamp="2017-12-06T19:36:43Z" changeset="54411716" uid="6970734" user="Dekacc">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="MonAmi"/>
+	</node>
+	<node id="3663767994" lat="42.0040547" lon="21.415173" version="3" timestamp="2017-12-06T19:36:43Z" changeset="54411716" uid="6970734" user="Dekacc">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Жапон Кафе Бар"/>
+		<tag k="name:en" v="Zapon Coffee Bar"/>
+		<tag k="opening_hours" v="07:30 - 23:30"/>
+	</node>
+	<node id="3663767995" lat="42.0042809" lon="21.4146731" version="1" timestamp="2015-07-23T21:31:10Z" changeset="32837948" uid="678915" user="dominator7">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Cafe Bela"/>
+		<tag k="opening_hours" v="09:00 - 00:00"/>
+	</node>
+	<node id="3750783154" lat="42.0038662" lon="21.3921091" version="3" timestamp="2017-12-12T19:49:38Z" changeset="54575867" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="3755532975" lat="41.999411" lon="21.4127725" version="2" timestamp="2017-12-23T18:46:44Z" changeset="54870368" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="int_name" v="Koncept37"/>
+		<tag k="name" v="Концепт37"/>
+		<tag k="name:en" v="Concept37"/>
+	</node>
+	<node id="3832366897" lat="41.9898526" lon="21.4197114" version="2" timestamp="2015-11-12T10:47:56Z" changeset="35258154" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="4059907155" lat="41.9937283" lon="21.4171739" version="1" timestamp="2016-03-14T14:19:51Z" changeset="37821888" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="leisure" v="playground"/>
+		<tag k="name" v="Авантура"/>
+	</node>
+	<node id="4183580089" lat="41.9610488" lon="21.6276146" version="2" timestamp="2016-05-13T15:01:17Z" changeset="39294336" uid="1468248" user="TheBlackMan">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="sandwich;coffee_shop;cake"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="internet_access:fee" v="no"/>
+		<tag k="name" v="Cakes &#38; Bakes"/>
+		<tag k="opening_hours" v="24/7"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="smoking" v="outside"/>
+		<tag k="takeaway" v="yes"/>
+		<tag k="wheelchair" v="yes"/>
+	</node>
+	<node id="4198944089" lat="42.004606" lon="21.3862677" version="2" timestamp="2019-02-28T10:48:55Z" changeset="67646645" uid="480208" user="Svetle">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:housenumber" v="4"/>
+		<tag k="addr:street" v="Љубљанска"/>
+		<tag k="addr:street:en" v="Ljubljanska"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Ch2pter"/>
+		<tag k="name:en" v="Ch2pter"/>
+		<tag k="opening_hours" v="09:00-23:45; Fr-Sa 09:00-23:45"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="phone" v="+389 75 490 155"/>
+		<tag k="smoking" v="separated"/>
+		<tag k="website" v="http://www.caffetrend.mk/"/>
+	</node>
+	<node id="4225448689" lat="42.0151641" lon="21.3990452" version="2" timestamp="2017-05-31T13:28:15Z" changeset="49136249" uid="678915" user="dominator7">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="internet_access:fee" v="no"/>
+		<tag k="name" v="Tonnis Bakeri"/>
+		<tag k="operator" v="Tonnish Bakeri"/>
+		<tag k="smoking" v="outside"/>
+	</node>
+	<node id="4228828360" lat="42.0137478" lon="21.404147" version="4" timestamp="2017-03-31T13:29:14Z" changeset="47325705" uid="4234393" user="Behar Behxheti">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="local"/>
+		<tag k="name" v="Coffeeshop Company lounge"/>
+		<tag k="name:en" v="Mezzo Coffee &#38; Lounge"/>
+		<tag k="operator" v="Sistina"/>
+	</node>
+	<node id="4233194691" lat="42.0433297" lon="21.3418406" version="1" timestamp="2016-06-09T06:33:04Z" changeset="39899803" uid="2098541" user="lluki">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Makreshanki"/>
+	</node>
+	<node id="4234144690" lat="41.9984995" lon="21.4168806" version="1" timestamp="2016-06-09T16:40:49Z" changeset="39912434" uid="4092348" user="Shai Hulud">
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Владимир Полежановски"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Belier"/>
+	</node>
+	<node id="4247226994" lat="42.0048738" lon="21.3910392" version="2" timestamp="2020-10-24T12:18:34Z" changeset="92986672" uid="918586" user="Binnette">
+		<tag k="amenity" v="cafe"/>
+		<tag k="diet:vegan" v="yes"/>
+		<tag k="name" v="Juicy and Co"/>
+	</node>
+	<node id="4304451302" lat="41.9994358" lon="21.4366103" version="2" timestamp="2020-11-15T17:56:40Z" changeset="94158383" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Clique Bar"/>
+		<tag k="opening_hours" v="24/7"/>
+	</node>
+	<node id="4327921320" lat="42.0033204" lon="21.3981384" version="3" timestamp="2018-01-11T17:26:53Z" changeset="55358280" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Prikazna"/>
+	</node>
+	<node id="4337632794" lat="41.9911364" lon="21.590491" version="2" timestamp="2016-10-21T19:24:57Z" changeset="43067062" uid="344903" user="Toyota_79">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="4359833889" lat="41.9911127" lon="21.4454673" version="1" timestamp="2016-08-21T08:14:18Z" changeset="41588688" uid="4278873" user="elialitem">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name:en" v="Cafe Jabolko"/>
+		<tag k="opening_hours" v="Mo-Su 06:00-22:00"/>
+	</node>
+	<node id="4375519489" lat="41.9728434" lon="21.4448074" version="1" timestamp="2016-08-30T11:48:36Z" changeset="41799914" uid="4454549" user="STAKLE">
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Христо Татарчев"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Гет Кафе"/>
+		<tag k="name:en" v="Get caffe"/>
+		<tag k="name:mk" v="Гет Кафе"/>
+		<tag k="opening_hours" v="Mo-Su 10:00-00:00"/>
+	</node>
+	<node id="4511016243" lat="42.0436939" lon="21.2795514" version="1" timestamp="2016-11-19T20:02:59Z" changeset="43808637" uid="4865298" user="bubibubi">
+		<tag k="addr:street" v="Gorno Svilare"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="chicken;burger;sandwich;grill;breakfast;kebab;tea;coffee_shop;diner;beef_bowl"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="БАМИЛА"/>
+		<tag k="name:en" v="BAMILA"/>
+		<tag k="name:mk" v="БАМИЛА"/>
+		<tag k="operator" v="Refik"/>
+	</node>
+	<node id="4516027391" lat="41.9919726" lon="21.4496023" version="2" timestamp="2018-08-29T12:14:18Z" changeset="62102276" uid="344903" user="Toyota_79">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name:en" v="Get Caffe"/>
+	</node>
+	<node id="4658223491" lat="42.027601" lon="21.5137772" version="1" timestamp="2017-02-03T01:28:38Z" changeset="45764329" uid="4443126" user="Side Kick">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="coffee_shop"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="Лав Фонтана"/>
+		<tag k="name:en" v="Lav Fontana"/>
+		<tag k="name:mk" v="Лав Фонтана"/>
+	</node>
+	<node id="4846704245" lat="41.9954521" lon="21.4271773" version="1" timestamp="2017-05-11T00:07:58Z" changeset="48577073" uid="361707" user="0xF00F">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Крин"/>
+		<tag k="outdoor_seating" v="yes"/>
+	</node>
+	<node id="4986311121" lat="41.9885027" lon="21.453477" version="1" timestamp="2017-07-22T08:19:34Z" changeset="50476298" uid="6335770" user="Boban Cvetanovski">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name:en" v="Happy"/>
+	</node>
+	<node id="5062450021" lat="42.0131776" lon="21.4378942" version="2" timestamp="2018-01-07T14:12:43Z" changeset="55236674" uid="7438958" user="Naim Sulejmani">
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Џон Кенеди"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="balkan"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="Te Flladi"/>
+		<tag k="opening_hours" v="Mo-Su 06:00-02:00"/>
+		<tag k="operator" v="Nazim Sulejmani"/>
+		<tag k="phone" v="+38978324244"/>
+	</node>
+	<node id="5110720231" lat="42.0011325" lon="21.4375923" version="3" timestamp="2020-11-15T17:57:42Z" changeset="94158428" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="int_name" v="Shisha"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Shisha"/>
+		<tag k="name:en" v="Shisha"/>
+		<tag k="name:sq" v="Shisha"/>
+		<tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+		<tag k="outdoor_seating" v="yes"/>
+	</node>
+	<node id="5176248987" lat="41.9927714" lon="21.4192046" version="1" timestamp="2017-10-19T12:01:28Z" changeset="53066559" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Изи"/>
+		<tag k="name:en" v="Izzi"/>
+	</node>
+	<node id="5284221296" lat="42.0013652" lon="21.4216953" version="2" timestamp="2019-02-27T13:22:43Z" changeset="67617675" uid="480208" user="Svetle">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Laika"/>
+	</node>
+	<node id="5288522422" lat="41.9958526" lon="21.4230134" version="4" timestamp="2019-05-27T07:31:33Z" changeset="70651151" uid="158784" user="bjankuloski">
+		<tag k="amenity" v="cafe"/>
+		<tag k="int_name" v="New Age"/>
+		<tag k="name" v="Еу ејџ"/>
+		<tag k="name:mk" v="Њу ејџ"/>
+	</node>
+	<node id="5292130834" lat="41.9768128" lon="21.4444199" version="1" timestamp="2017-12-18T18:23:41Z" changeset="54738489" uid="7158481" user="MaNemoj">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="63"/>
+	</node>
+	<node id="5333583388" lat="42.0034483" lon="21.3991821" version="2" timestamp="2018-11-25T10:40:15Z" changeset="64863318" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="regional"/>
+		<tag k="name" v="Giovani"/>
+		<tag k="name:en" v="Giovani"/>
+		<tag k="name:mk" v="Џовани"/>
+	</node>
+	<node id="5346935627" lat="42.0047408" lon="21.40994" version="2" timestamp="2019-03-31T22:15:11Z" changeset="68736849" uid="361707" user="0xF00F">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="5534803022" lat="42.0023198" lon="21.4218407" version="1" timestamp="2018-04-06T23:11:54Z" changeset="57880348" uid="8076646" user="Alexandro Brova">
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Кахава"/>
+		<tag k="name:en" v="Cahawa"/>
+	</node>
+	<node id="5604182920" lat="41.9986406" lon="21.4253762" version="2" timestamp="2021-10-25T16:00:47Z" changeset="112954668" uid="9047835" user="YunDi88">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housenumber" v="14"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Булевар Партизански Одреди"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Mikel"/>
+		<tag k="name:en" v="Vinyl"/>
+		<tag k="website" v="https://www.facebook.com/vinylmk/"/>
+	</node>
+	<node id="5622210754" lat="42.0087916" lon="21.4181784" version="1" timestamp="2018-05-16T13:43:01Z" changeset="59018238" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Централ Парк"/>
+	</node>
+	<node id="5690140438" lat="41.9922468" lon="21.4264143" version="1" timestamp="2018-06-14T09:00:20Z" changeset="59837509" uid="344903" user="Toyota_79">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="DejaVu"/>
+	</node>
+	<node id="5690140660" lat="41.9922273" lon="21.4266738" version="1" timestamp="2018-06-14T09:00:28Z" changeset="59837515" uid="344903" user="Toyota_79">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Istanbul"/>
+	</node>
+	<node id="5713714222" lat="42.0229571" lon="21.3885778" version="2" timestamp="2018-08-26T11:39:32Z" changeset="62004702" uid="344903" user="Toyota_79">
+		<tag k="amenity" v="cafe"/>
+		<tag k="dog" v="yes"/>
+		<tag k="name" v="AvAv Dog Park"/>
+	</node>
+	<node id="5775030453" lat="41.9931868" lon="21.4414844" version="1" timestamp="2018-07-21T13:48:14Z" changeset="60931189" uid="6720960" user="GC1979">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name:en" v="O La La"/>
+	</node>
+	<node id="5841696956" lat="41.9651051" lon="21.3943158" version="1" timestamp="2018-08-19T12:40:17Z" changeset="61792351" uid="622084" user="ITineris">
+		<tag k="amenity" v="cafe"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="smoking" v="yes"/>
+	</node>
+	<node id="5841843563" lat="41.9584413" lon="21.2954889" version="1" timestamp="2018-08-19T14:15:58Z" changeset="61794668" uid="160521" user="François2">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Fresh"/>
+	</node>
+	<node id="5859233985" lat="42.0128215" lon="21.4341981" version="1" timestamp="2018-08-26T16:05:25Z" changeset="62010197" uid="8739240" user="Omer Bajrami">
+		<tag k="addr:postcode" v="255"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="coffee_shop;balkan;ice_cream;irish;regional;tea;turkish"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="Kandi"/>
+		<tag k="name:en" v="Kandy"/>
+		<tag k="opening_hours" v="Mo-Su 07:15-00:00"/>
+		<tag k="operator" v="Mensur&#38;Hasan"/>
+	</node>
+	<node id="6018277285" lat="41.9987593" lon="21.4242861" version="1" timestamp="2018-10-27T18:53:22Z" changeset="63935263" uid="6720960" user="GC1979">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name:en" v="7 Grama Espresso Studio"/>
+	</node>
+	<node id="6018277485" lat="41.9971825" lon="21.4284228" version="2" timestamp="2020-11-15T18:13:45Z" changeset="94159079" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Squeeze Me"/>
+		<tag k="name:en" v="Squeeze Me"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="6032865285" lat="42.0002555" lon="21.4361778" version="2" timestamp="2020-11-15T17:53:48Z" changeset="94158274" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="crepe;coffee_shop;cake;ice_cream"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="k8"/>
+		<tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+	</node>
+	<node id="6054020294" lat="41.9946427" lon="21.4186412" version="1" timestamp="2018-11-12T06:18:51Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054032912" lat="41.9970171" lon="21.428439" version="2" timestamp="2020-11-15T18:10:29Z" changeset="94158940" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Manda Coffee Bar"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="6054035625" lat="41.9938495" lon="21.427602" version="2" timestamp="2019-05-11T18:07:14Z" changeset="70143936" uid="361707" user="0xF00F">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054036211" lat="41.9992004" lon="21.417224" version="1" timestamp="2018-11-12T06:17:48Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054036212" lat="41.9990907" lon="21.4172361" version="1" timestamp="2018-11-12T06:17:50Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054048492" lat="41.9970085" lon="21.4233514" version="1" timestamp="2018-11-12T06:19:47Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054048500" lat="41.9797275" lon="21.3056706" version="1" timestamp="2018-11-12T06:20:59Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054048501" lat="41.9996839" lon="21.3278644" version="1" timestamp="2018-11-12T06:21:04Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054048726" lat="42.0003534" lon="21.4158769" version="2" timestamp="2019-09-11T17:45:34Z" changeset="74366601" uid="154757" user="Tr4sK">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Paladin M"/>
+	</node>
+	<node id="6054048730" lat="41.9956401" lon="21.4113199" version="2" timestamp="2019-05-24T18:12:29Z" changeset="70595294" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Woodstock"/>
+	</node>
+	<node id="6054049813" lat="41.9947238" lon="21.4173314" version="1" timestamp="2018-11-12T06:24:08Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6054050095" lat="41.9980418" lon="21.4244255" version="1" timestamp="2018-11-12T06:22:06Z" changeset="64393596" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6089711779" lat="42.0038026" lon="21.3970638" version="1" timestamp="2018-11-25T10:40:14Z" changeset="64863318" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Led Zeppelin"/>
+	</node>
+	<node id="6145381755" lat="42.0030494" lon="21.3994796" version="1" timestamp="2018-12-18T14:55:56Z" changeset="65583247" uid="3261834" user="Javier Gutiérrez">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Sugarland"/>
+	</node>
+	<node id="6228007184" lat="42.004566" lon="21.393778" version="1" timestamp="2019-01-22T19:27:00Z" changeset="66548407" uid="6970734" user="Dekacc">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Krem"/>
+	</node>
+	<node id="6307066053" lat="42.0012294" lon="21.423008" version="1" timestamp="2019-02-27T22:30:17Z" changeset="67633576" uid="480208" user="Svetle">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housenumber" v="93"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Орце Николов"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="fourplay"/>
+	</node>
+	<node id="6374712571" lat="42.0055109" lon="21.4109206" version="3" timestamp="2021-04-18T14:59:11Z" changeset="103141586" uid="7140745" user="MatejMecka">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housenumber" v="9A"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Никола Тесла"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="sandwich;coffee_shop;bakery;ice_cream"/>
+		<tag k="name" v="Joy Café &#38; Bakery (Karposh)"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="phone" v="+389 2 307 6955"/>
+		<tag k="website" v="https://www.facebook.com/joycafeandbakery/"/>
+	</node>
+	<node id="6451451785" lat="41.9907255" lon="21.4260361" version="1" timestamp="2019-05-06T08:34:06Z" changeset="69926830" uid="9864829" user="Richie0210">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Coffee O&#39;Clock"/>
+	</node>
+	<node id="6577887485" lat="41.9992458" lon="21.4263142" version="2" timestamp="2019-11-17T15:14:27Z" changeset="77191492" uid="436419" user="wvdp">
+		<tag k="addr:street" v="Булевар Климент Охридски"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="burger;sandwich;cake;coffee_shop"/>
+		<tag k="diet:vegan" v="yes"/>
+		<tag k="diet:vegetarian" v="yes"/>
+		<tag k="name" v="Веган365Кујна"/>
+		<tag k="name:en" v="Vegan365Kitchen"/>
+		<tag k="name:ru" v="Веган365Кухня"/>
+		<tag k="opening_hours" v="Mo-Fr 09:00-17:00"/>
+		<tag k="phone" v="+389 75 585 255"/>
+		<tag k="website" v="https://vegan365kitchen.com/"/>
+	</node>
+	<node id="6680280012" lat="41.9994044" lon="21.4368049" version="3" timestamp="2020-11-15T17:52:44Z" changeset="94158229" uid="12177121" user="sarask">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housename" v="Boomerang Shisha"/>
+		<tag k="addr:housenumber" v="18"/>
+		<tag k="addr:street" v="Казанџиска"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Boomerang Shisha"/>
+		<tag k="opening_hours" v="24/7"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="wifi" v="free"/>
+	</node>
+	<node id="6802029812" lat="41.9973064" lon="21.4297354" version="2" timestamp="2020-11-15T17:51:04Z" changeset="94158155" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="coffee_shop;sandwich;cake"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Home Brews"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-22:00"/>
+	</node>
+	<node id="6814231792" lat="41.9999671" lon="21.4370091" version="2" timestamp="2020-11-15T17:49:46Z" changeset="94158100" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Urban"/>
+		<tag k="opening_hours" v="24/7"/>
+	</node>
+	<node id="6814246690" lat="42.0003942" lon="21.4364615" version="2" timestamp="2020-11-15T17:16:07Z" changeset="94156728" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Coffe Tearoom Lachi"/>
+		<tag k="opening_hours" v="Mo-Sa 08:00-18:00"/>
+	</node>
+	<node id="6814246723" lat="41.999797" lon="21.4373153" version="2" timestamp="2020-11-15T17:40:39Z" changeset="94157769" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Bomonti"/>
+		<tag k="opening_hours" v="Mo-Su 10:00-22:00"/>
+	</node>
+	<node id="6815434688" lat="41.9967222" lon="21.4225095" version="2" timestamp="2019-09-22T17:48:00Z" changeset="74777891" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Toto"/>
+		<tag k="name:en" v="Toto Daily Bistro"/>
+		<tag k="opening_hours" v="Mo-Sa 08:00-01:00"/>
+	</node>
+	<node id="6815559888" lat="41.9981835" lon="21.4234973" version="2" timestamp="2020-08-24T05:17:58Z" changeset="89832074" uid="1836257" user="filipgd1">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housenumber" v="23"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Булевар Партизански Одреди"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Shakespeare Cafe"/>
+		<tag k="name:mk" v="Шекспир Кафе"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-00:00"/>
+		<tag k="outdoor_seating" v="yes"/>
+	</node>
+	<node id="6815925985" lat="41.9974479" lon="21.4223059" version="1" timestamp="2019-09-22T17:48:02Z" changeset="74777891" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Juicy&#38;co"/>
+	</node>
+	<node id="6815931287" lat="42.0005998" lon="21.4192379" version="2" timestamp="2020-12-02T20:57:20Z" changeset="95177236" uid="361707" user="0xF00F">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="cake;ice_cream;coffee_shop"/>
+		<tag k="name" v="Зафир"/>
+	</node>
+	<node id="6815931391" lat="42.0023667" lon="21.4222629" version="1" timestamp="2019-09-22T17:53:00Z" changeset="74777891" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Majahh"/>
+	</node>
+	<node id="6821158386" lat="42.0030613" lon="21.4385935" version="2" timestamp="2020-11-15T17:41:39Z" changeset="94157802" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Kairo"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="6821158388" lat="41.9940274" lon="21.4304151" version="2" timestamp="2020-11-15T17:45:55Z" changeset="94157960" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Stay you"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-22:00"/>
+	</node>
+	<node id="6821158389" lat="41.9924937" lon="21.4300488" version="2" timestamp="2020-11-15T17:46:45Z" changeset="94157991" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="JJ&#38;S"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="6821158686" lat="41.9976507" lon="21.434633" version="2" timestamp="2020-11-15T17:47:58Z" changeset="94158034" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Mulliri"/>
+		<tag k="opening_hours" v="Mo-Su 11:00-23:00"/>
+	</node>
+	<node id="6821158695" lat="41.9939851" lon="21.430389" version="2" timestamp="2020-11-15T17:48:53Z" changeset="94158066" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="MIG"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="6827032732" lat="42.0009497" lon="21.438158" version="2" timestamp="2020-11-15T17:27:34Z" changeset="94157199" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Old Bazaar"/>
+		<tag k="name" v="Gallery 7"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-21:00"/>
+	</node>
+	<node id="6827072094" lat="42.0027924" lon="21.4406076" version="1" timestamp="2019-09-26T12:14:09Z" changeset="74956993" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="6827074010" lat="42.0027827" lon="21.4402065" version="1" timestamp="2019-09-26T12:14:12Z" changeset="74956993" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Sultan Kejf"/>
+	</node>
+	<node id="6879115187" lat="41.9906887" lon="21.4147527" version="2" timestamp="2019-10-14T20:55:10Z" changeset="75688238" uid="5318773" user="Exclusive92">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name:en" v="Drip Coffee (Specialty Coffee)"/>
+		<tag k="opening_hours" v="Mo-Fr 07:30-18:00; Sa 09:00-15:00"/>
+	</node>
+	<node id="6967285685" lat="41.9979406" lon="21.4246771" version="1" timestamp="2019-11-11T18:29:39Z" changeset="76925215" uid="9497227" user="AnttonC">
+		<tag k="addr:housenumber" v="17"/>
+		<tag k="addr:street" v="Булевар Партизански Одреди"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name:en" v="Short bus"/>
+		<tag k="opening_hours" v="Mo-Th 09:00-00:00; Fr-Sa 09:00-01:00; Su 17:00-00:00"/>
+	</node>
+	<node id="7119714585" lat="42.0019011" lon="21.413452" version="1" timestamp="2020-01-09T15:07:23Z" changeset="79382470" uid="3781941" user="Luka Madic">
+		<tag k="amenity" v="cafe"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="Рузвелт"/>
+		<tag k="name:en" v="Roosvelt"/>
+	</node>
+	<node id="7139002050" lat="41.9941669" lon="21.543324" version="1" timestamp="2020-01-17T12:01:07Z" changeset="79695679" uid="131662" user="borces">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Дени Интернационал"/>
+	</node>
+	<node id="8121684194" lat="41.9932519" lon="21.4297974" version="1" timestamp="2020-11-15T18:56:03Z" changeset="94160548" uid="12177121" user="sarask">
+		<tag k="amenity" v="cafe"/>
+		<tag k="location" v="Center"/>
+		<tag k="name" v="Cafe Barcelona"/>
+		<tag k="opening_hours" v="Mo-Sa 08:00-18:00"/>
+	</node>
+	<node id="8188528781" lat="41.9929511" lon="21.430208" version="2" timestamp="2020-12-02T20:46:58Z" changeset="95176841" uid="361707" user="0xF00F">
+		<tag k="amenity" v="cafe"/>
+		<tag k="cuisine" v="bakery;sandwiches;coffee_shop"/>
+		<tag k="name" v="Joy Café &#38; Bakery (Centar)"/>
+	</node>
+	<node id="8496716622" lat="41.9843164" lon="21.2703581" version="1" timestamp="2021-03-08T11:22:09Z" changeset="100632719" uid="8373073" user="chris-ca">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Burektore Bleta - ES"/>
+	</node>
+	<node id="9163117743" lat="41.998628" lon="21.405925" version="1" timestamp="2021-10-10T18:15:16Z" changeset="112344182" uid="429849" user="Chejo">
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housenumber" v="2"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Њуделхиска"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Plato Coffee 2.0"/>
+	</node>
+	<node id="9200216438" lat="41.9949215" lon="21.4245361" version="1" timestamp="2021-10-25T16:01:45Z" changeset="112954668" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Lafe"/>
+	</node>
+	<node id="9200216442" lat="41.9899157" lon="21.4326376" version="1" timestamp="2021-10-25T16:01:49Z" changeset="112954668" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+	</node>
+	<node id="9200216443" lat="42.0010222" lon="21.4355656" version="1" timestamp="2021-10-25T16:01:58Z" changeset="112954668" uid="9047835" user="YunDi88">
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Coffee corner"/>
+	</node>
+	<way id="163025981" version="6" timestamp="2019-03-26T22:22:37Z" changeset="68565916" uid="6970734" user="Dekacc">
+		<nd ref="1747982383"/>
+		<nd ref="1747982384"/>
+		<nd ref="1747982388"/>
+		<nd ref="1747982381"/>
+		<nd ref="6363643788"/>
+		<nd ref="1867058083"/>
+		<nd ref="1747982402"/>
+		<nd ref="6363643793"/>
+		<nd ref="1747982403"/>
+		<nd ref="6363643792"/>
+		<nd ref="6363643791"/>
+		<nd ref="6363643790"/>
+		<nd ref="6363643789"/>
+		<nd ref="1371572904"/>
+		<nd ref="1747982383"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:city:en" v="Skopje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:housenumber" v="33"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Ленинова"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Coffee Factory"/>
+	</way>
+	<way id="176147426" version="3" timestamp="2017-02-26T19:13:45Z" changeset="46423577" uid="4358750" user="mariegorman">
+		<nd ref="3862461317"/>
+		<nd ref="3625131447"/>
+		<nd ref="1867057768"/>
+		<nd ref="1867057829"/>
+		<nd ref="3862461317"/>
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:city:en" v="Skopje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:housenumber" v="29"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Аминта Трети"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="cuisine" v="coffee_shop"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="name" v="Juice Bar"/>
+		<tag k="name:en" v="Decata od nasata ulica"/>
+		<tag k="smoking" v="outside"/>
+	</way>
+	<way id="200568446" version="3" timestamp="2017-02-26T19:13:47Z" changeset="46423577" uid="4358750" user="mariegorman">
+		<nd ref="2105387329"/>
+		<nd ref="4417670004"/>
+		<nd ref="2105387346"/>
+		<nd ref="2105387375"/>
+		<nd ref="2105387329"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:city:en" v="Skopje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Љубов"/>
+		<tag k="name:en" v="Ljubov"/>
+		<tag k="name:mk" v="Љубов"/>
+	</way>
+	<way id="223413061" version="5" timestamp="2019-03-01T16:52:40Z" changeset="67692616" uid="4240913" user="Corban8">
+		<nd ref="2323117491"/>
+		<nd ref="2323117490"/>
+		<nd ref="2323117492"/>
+		<nd ref="2323117489"/>
+		<nd ref="2323117491"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:city:en" v="Skopje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:housenumber" v="29"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Аминта Трети"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Manhattan Cafe"/>
+	</way>
+	<way id="355766653" version="3" timestamp="2017-02-26T18:40:14Z" changeset="46422854" uid="4358750" user="mariegorman">
+		<nd ref="3613050860"/>
+		<nd ref="3613036493"/>
+		<nd ref="1860911518"/>
+		<nd ref="1860911529"/>
+		<nd ref="3613050860"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:city:en" v="Skopje"/>
+		<tag k="addr:country" v="MK"/>
+		<tag k="addr:housenumber" v="8"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Никола Тримпаре"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Кашмир Арт Кафе"/>
+		<tag k="name:en" v="Kashmir Art Caffe"/>
+	</way>
+	<way id="410317997" version="3" timestamp="2019-02-27T12:37:27Z" changeset="67616271" uid="480208" user="Svetle">
+		<nd ref="4121511533"/>
+		<nd ref="1752495709"/>
+		<nd ref="4121511528"/>
+		<nd ref="6305707814"/>
+		<nd ref="4121511531"/>
+		<nd ref="4121511533"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:housenumber" v="25"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Мирослав Крлежа"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="Излет"/>
+		<tag k="name:en" v="Izlet"/>
+	</way>
+	<way id="476222632" version="2" timestamp="2017-02-27T13:47:01Z" changeset="46442726" uid="4358750" user="mariegorman">
+		<nd ref="4698525985"/>
+		<nd ref="4698525986"/>
+		<nd ref="4698525987"/>
+		<nd ref="4575983693"/>
+		<nd ref="4698525985"/>
+		<tag k="addr:housenumber" v="18"/>
+		<tag k="addr:street" v="Јани Лукровски"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="residential"/>
+	</way>
+	<way id="477325822" version="2" timestamp="2018-01-04T07:23:37Z" changeset="55149678" uid="6559637" user="Vichimp">
+		<nd ref="1447462903"/>
+		<nd ref="4706991239"/>
+		<nd ref="4706991240"/>
+		<nd ref="4706991241"/>
+		<nd ref="1447462903"/>
+		<tag k="addr:housenumber" v="97"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Орце Николов"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="int_name" v="Syndicat"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="name" v="Синдикат"/>
+		<tag k="name:en" v="Sindikat"/>
+		<tag k="old_name" v="Superfly"/>
+		<tag k="opening_hours" v="Mo-Su 09:00-01:00"/>
+		<tag k="source" v="http://www.facebook.com/pages/Superfly/197275136957276?sk=info"/>
+		<tag k="wifi" v="yes"/>
+	</way>
+	<way id="477332495" version="1" timestamp="2017-02-26T18:29:42Z" changeset="46422620" uid="4358750" user="mariegorman">
+		<nd ref="4707047958"/>
+		<nd ref="4707047957"/>
+		<nd ref="4318426090"/>
+		<nd ref="4707047956"/>
+		<nd ref="4707047958"/>
+		<tag k="addr:street" v="Рајко Жинзифов"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="цреша бар"/>
+	</way>
+	<way id="477342114" version="1" timestamp="2017-02-26T19:42:03Z" changeset="46424171" uid="4358750" user="mariegorman">
+		<nd ref="4707142657"/>
+		<nd ref="4707142655"/>
+		<nd ref="4707142656"/>
+		<nd ref="411008955"/>
+		<nd ref="4707142657"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="name" v="Скандал"/>
+	</way>
+	<way id="477342115" version="2" timestamp="2019-05-27T07:31:34Z" changeset="70651151" uid="158784" user="bjankuloski">
+		<nd ref="4707142660"/>
+		<nd ref="4707142658"/>
+		<nd ref="4707142659"/>
+		<nd ref="411008853"/>
+		<nd ref="4707142660"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="int_name" v="Light Cafe"/>
+		<tag k="name" v="Лајт кафе"/>
+	</way>
+	<way id="477342118" version="1" timestamp="2017-02-26T19:42:03Z" changeset="46424171" uid="4358750" user="mariegorman">
+		<nd ref="4707142669"/>
+		<nd ref="3317151670"/>
+		<nd ref="2173399477"/>
+		<nd ref="4707142668"/>
+		<nd ref="4707142669"/>
+		<tag k="addr:city" v="Скопје"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Народен Фронт"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="cuisine" v="ice_cream"/>
+		<tag k="int_name" v="Кафе Дизајн"/>
+		<tag k="internet_access" v="wlan"/>
+		<tag k="name" v="My Space cafe"/>
+		<tag k="name:en" v="My Space"/>
+		<tag k="name:mk" v="Мај Спејс"/>
+		<tag k="opening_hours" v="Mo-Su 08:00-01:00"/>
+		<tag k="smoking" v="isolated"/>
+		<tag k="source" v="Survey"/>
+		<tag k="website" v="https://www.facebook.com/pages/My-Space-caf%C3%A9/150915781656629?ref=aymt_homepage_panel"/>
+		<tag k="wifi" v="yes"/>
+	</way>
+	<way id="488118852" version="1" timestamp="2017-04-19T22:20:23Z" changeset="47953804" uid="5693846" user="solidio">
+		<nd ref="4804709459"/>
+		<nd ref="4804709460"/>
+		<nd ref="4804709461"/>
+		<nd ref="4804709462"/>
+		<nd ref="4804709459"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Булевар Јане Сандански"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="yes"/>
+		<tag k="building:levels" v="2"/>
+		<tag k="internet_access" v="yes"/>
+		<tag k="name" v="Trend"/>
+		<tag k="outdoor_seating" v="yes"/>
+	</way>
+	<way id="496423191" version="1" timestamp="2017-05-28T09:26:40Z" changeset="49040959" uid="344903" user="Toyota_79">
+		<nd ref="4881325506"/>
+		<nd ref="4881325505"/>
+		<nd ref="4881325503"/>
+		<nd ref="4881325504"/>
+		<nd ref="4881325506"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="building" v="roof"/>
+		<tag k="name" v="La Cafetaria"/>
+		<tag k="outdoor_seating" v="yes"/>
+	</way>
+	<way id="553831588" version="1" timestamp="2018-01-17T19:33:57Z" changeset="55531012" uid="6970734" user="Dekacc">
+		<nd ref="5345558568"/>
+		<nd ref="5345558569"/>
+		<nd ref="5345558570"/>
+		<nd ref="5345558571"/>
+		<nd ref="5345558568"/>
+		<tag k="addr:city" v="Cкoпje"/>
+		<tag k="addr:postcode" v="1000"/>
+		<tag k="addr:street" v="Шекспирова"/>
+		<tag k="amenity" v="cafe"/>
+		<tag k="name" v="Драмски Кафе Бар"/>
+		<tag k="name:en" v="Dramski Coffee Bar"/>
+		<tag k="outdoor_seating" v="yes"/>
+		<tag k="smoking" v="outside"/>
+	</way>
+</osm>

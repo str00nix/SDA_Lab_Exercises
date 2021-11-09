@@ -1,0 +1,23 @@
+Main osm dataset downloaded from https://overpass-api.de/api/map?bbox=21.2537,41.9053,21.6959,42.0880
+
+links for executables provided at
+https://wiki.openstreetmap.org/wiki/Osmfilter
+https://wiki.openstreetmap.org/wiki/Osmconvert
+
+
+Using CMD while in the directory of this file, the following commands were used for filtering and conversion:
+
+(Converting the whole map into csv)
+"binaries\osmconvert64-0.8.8p.exe" "data\full_datasets\skopje_map.osm" --all-to-nodes --csv="@id @lon @lat name" --csv-headline --csv-separator="," -o=data\full_datasets\skopje_map.csv
+
+(Filtering of hotels, restaurants, cafes and attractions)
+"binaries\osmfilter.exe" "data\full_datasets\skopje_map.osm" --keep="tourism=hotel" --drop="access=no" --ignore-dependencies -o=data\filtered_datasets\hotels.osm
+"binaries\osmfilter.exe" "data\full_datasets\skopje_map.osm" --keep="amenity=restaurant" --drop="access=no" --ignore-dependencies -o=data\filtered_datasets\restaurants.osm
+"binaries\osmfilter.exe" "data\full_datasets\skopje_map.osm" --keep="amenity=cafe" --drop="access=no" --ignore-dependencies -o=data\filtered_datasets\cafes.osm
+"binaries\osmfilter.exe" "data\full_datasets\skopje_map.osm" --keep="tourism=attraction" --drop="access=no" --ignore-dependencies -o=data\filtered_datasets\attractions.osm
+
+(Converting those filtered datasets into csv)
+"binaries\osmconvert64-0.8.8p.exe" "data\filtered_datasets\hotels.osm" --all-to-nodes --csv="@id @lon @lat name" --csv-headline --csv-separator="," -o=data\filtered_datasets\hotels.csv
+"binaries\osmconvert64-0.8.8p.exe" "data\filtered_datasets\restaurants.osm" --all-to-nodes --csv="@id @lon @lat name" --csv-headline --csv-separator="," -o=data\filtered_datasets\restaurants.csv
+"binaries\osmconvert64-0.8.8p.exe" "data\filtered_datasets\cafes.osm" --all-to-nodes --csv="@id @lon @lat name" --csv-headline --csv-separator="," -o=data\filtered_datasets\cafes.csv
+"binaries\osmconvert64-0.8.8p.exe" "data\filtered_datasets\attractions.osm" --all-to-nodes --csv="@id @lon @lat name" --csv-headline --csv-separator="," -o=data\filtered_datasets\attractions.csv
