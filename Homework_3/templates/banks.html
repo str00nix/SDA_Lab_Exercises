@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Banks</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- leaflet javascript and css files -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+    <script>
+        var map;
+        var my_lat;
+        var my_lon;
+        window.onload = function () {
+            map = dispalyMap();
+
+            //find my location
+            map.locate({ setView: true });
+            map.on('locationfound', function (e) {
+                var LeafIcon = L.Icon.extend({
+                    options: {
+                        iconSize: [30, 30],
+                    }
+                });
+                var greenIcon = new LeafIcon({
+                    iconUrl: '../static/redMarker2.png',
+                });
+                L.marker([e.latitude, e.longitude], { icon: greenIcon }).addTo(map);
+                my_lat = e.latitude;
+                my_lon = e.longitude;
+                distanceAndMark();
+            });
+            map.on('locationerror', function (e) { alert(e.message) });
+
+            var input = document.getElementById("vlez");
+            input.addEventListener("keyup", function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    document.getElementById("search").click();
+                }
+            });
+        };
+
+        function dispalyMap() {
+            var mymap = L.map('mapid').setView([41.9981, 21.4254], 14);
+
+            L.tileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=6F9yLFKNMLDBrR4LD4Pt', {
+                attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+            }).addTo(mymap);
+
+            return mymap;
+        }
+
+        function toggle(obj) {
+            var obj = document.getElementById(obj);
+            if (obj.style.display == "block") obj.style.display = "none";
+            else obj.style.display = "block";
+        }
+
+        function distanceAndMark() {
+            '{% for item in data %}'
+
+            var displayElement = document.getElementById('{{ item.ID }}').getElementsByTagName("p")[2];
+
+            var item_lat = '{{ item["@lat"] }}'
+            var item_lon = '{{ item["@lon"] }}'
+
+            var distance = calculateDistance(my_lat, my_lon, item_lat, item_lon);
+
+            displayElement.innerHTML = "Distance:" + distance.toFixed(2) + " km";
+            L.marker([item_lat, item_lon]).addTo(map);
+            '{% endfor %}'
+        };
+
+        function calculateDistance(lat1, lon1, lat2, lon2) {
+            if ((lat1 == lat2) && (lon1 == lon2)) {
+                return 0;
+            }
+            else {
+                var radlat1 = Math.PI * lat1 / 180;
+                var radlat2 = Math.PI * lat2 / 180;
+                var theta = lon1 - lon2;
+                var radtheta = Math.PI * theta / 180;
+                var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(radlat2) * Math.cos(radtheta);
+                if (dist > 1) {
+                    dist = 1;
+                }
+                dist = Math.acos(dist);
+                dist = dist * 180 / Math.PI;
+                dist = dist * 60 * 1.1515;
+                dist = dist * 1.609344
+                return dist;
+            }
+        }
+    </script>
+    <header>
+        <div class="backkopce">
+            <a href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                    <path fill-rule="evenodd"
+                        d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                </svg>
+            </a>
+        </div>
+
+    </header>
+
+
+    <section>
+        <h1>Banks</h1>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <form action="{{ url_for('search',category=2) }}" method="POST">
+            <div class="search-box">
+                <input id="vlez" class="search-txt" type="text" name="ime" placeholder="Type to search">
+                <button id="search" class="search-btn" type="submit" style="border:none;">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </form>
+        {% if data %}
+        {% for item in data %}
+        <a href="#" style="text-decoration: none">
+            <h2 onclick="toggle({{ item.ID }})">{{ item.name }}</h2>
+        </a>
+        <div id="{{ item.ID }}" style="display:none;">
+            <p> Location: <strong>{{ item['addr:city']}}{{ item['addr:street'] }}</strong></p>
+            <p style="display:inline;"> Rating:
+                {% if item.review <= 5 %}
+                {% for i in range(0,item.review) %}
+                <img src="/static/star.png" width="20px" height="20px">
+                {% endfor %}
+                {% else %}
+                {% for i in range(0,4) %}
+                <img src="/static/star.png" width="20px" height="20px">
+                {% endfor %}
+                {% endif %}
+                {% if item.review == 0 %}
+                <img src="/static/warning.png" width="20px" height="20px">
+                {% endif %}
+            </p>
+            <p> Distance: ...</p>
+            <a href="{{ url_for('bank',id=item.ID)}}">
+                <button>Show more</button>
+            </a>
+            <br>
+        </div>
+        {% endfor %}
+        {% endif %}
+    </section>
+    <aside>
+        <div id="mapid"></div>
+    </aside>
+</body>
+
+</html>

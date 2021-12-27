@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visit Skopje</title>
+
+    <!-- leaflet javascript and css files -->
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+   <link rel="stylesheet" href="../static/style.css"/>
+</head>
+
+<body>
+    <script>
+        //Globalna promenliva
+        var map;
+        window.onload=function(){
+
+            map = dispalyMap();
+
+            var input = document.getElementById("vlez");
+            input.addEventListener("keyup", function(event) {
+
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                document.getElementById("search").click();
+            }
+            });
+
+            map.on('locationfound',onLocationFound);
+            map.on('locationerror',onLocationError);
+        };
+
+        function dispalyMap(){
+            var mymap = L.map('mapid').setView([41.9981, 21.4254], 13);
+
+            L.tileLayer('https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=6F9yLFKNMLDBrR4LD4Pt', {
+            attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+            }).addTo(mymap);
+
+            return mymap;
+        }
+
+        function onLocationFound(e){
+            var LeafIcon = L.Icon.extend({
+            options: {
+             iconSize:[30, 30],
+                }
+            });
+            var greenIcon = new LeafIcon({
+                iconUrl: '../static/redMarker2.png',
+            });
+            L.marker([e.latitude, e.longitude],{icon:greenIcon}).addTo(map);
+        }
+
+        function onLocationError(e){
+            alert(e.message);
+        }
+
+        function findMyLocation(){
+           var location =  map.locate({setView : true});
+        }
+
+    </script>
+<header><a href="index.html" style="text-decoration: none"><h1>Visit Skopje</h1></a></header>
+
+<section>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <div class="search-box">
+            <input id = "vlez" class="search-txt" type="text" name="name" placeholder="UNDER CONSTRUCTION">
+            <button id = "search" class="search-btn" type="submit" style="border:none;">
+                <i class="fas fa-search"></i>
+            </button>
+         </div>
+    </form>
+    <div class="row">
+        <div class="column">
+            <a href= "banks.html" class="tooltip">
+                <img src="../static/bank.png" id="banka" alt="Banks" >
+                    <span class="tooltiptext">Banks</span>
+            </a>
+        </div>
+        <div class="column">
+            <a href= "cafes.html" class="tooltip">
+                <img src="../static/cafe.png" id="kafe" alt="Cafes">
+                <span class="tooltiptext">Cafes</span>
+            </a>
+        </div><br>
+
+        <div class="column">
+            <a href= "monuments.html" class="tooltip">
+                <img src="../static/monument.png" id="bolnica" alt="Monuments">
+                <span class="tooltiptext">Monuments</span>
+            </a>
+        </div>
+        <div class="column">
+            <a href= "landmarks.html" class="tooltip">
+                <img src="../static/landmark.png" id="office" alt="Landmarks">
+                <span class="tooltiptext">Landmarks</span>
+            </a>
+        </div>
+    </div>
+
+    <button class="findMyLocationButton" value="Find My Location" onclick="findMyLocation()" style="margin-top: 20px;">
+        <i class="fa fa-location-arrow" aria-hidden="true"></i> Find my location
+    </button>
+    </div><br>
+</section>
+
+<aside>
+    <div id="mapid"></div>
+  </aside>
+</bottom>
+
+</body>
+
+</html>
