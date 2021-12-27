@@ -1,0 +1,210 @@
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 6px navajowhite;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    color: grey;
+    text-shadow: 3px 3px 6px navajowhite;
+    text-align: left;
+    font-family: Garamond, cursive;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.71);
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-image: linear-gradient(grey, transparent);
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.findMyLocationButton{
+    width: 270px;
+    height: 45px;
+    font-size: medium;
+    font-family: fantasy;
+    color: #000000;
+    border-radius: 22px;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.findMyLocationButton:hover{
+    background-color: rgba(136, 128, 128, 0.534);
+}
+
+#vlez{
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.62);
+}
+#search {
+    text-shadow: 3px 3px 6px navajowhite;
+}
+section{
+    float: left;
+    margin: 0 5%;
+    width: 25%;
+}
+aside{
+    float:right;
+    margin-left: 0px;
+    width: 65%;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    margin-top: 20px;
+}
+#banka{
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 20%;
+    height: 130px;
+    width: 100px;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+#kafe {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 20%;
+    height: 130px;
+    width: 100px;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+#bolnica {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 20%;
+    height: 130px;
+    width: 100px;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+#office {
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 20%;
+    height: 130px;
+    width: 100px;
+    box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+#back {
+    background-image: url('back-strelka.jpg');
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    box-shadow: navajowhite;
+    border-color: white;
+}
+
+#gmap_canvas{
+    border-radius: 10%;
+}
+.search-box{
+    top: 50%;
+    left: 50%;
+    height: 25px;
+    border-radius: 40px;
+    background: rgba(197, 186, 172, 0.25);
+    padding: 15px;
+    width: 240px;
+    margin-left: 5px;
+}
+.search-btn{
+    color: rgba(87, 87, 87, 0.62);
+    float: left;
+    width: 40px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: bottom;
+    padding: 0;
+    color:rgba(87, 87, 87, 0.62);
+    /*color: rgba(128, 128, 128, 0.62);*/
+    font-size: 16px;
+    line-height: 25px;
+    width: 0px;
+}
+.search-box:hover > .search-txt{
+    width: 190px;
+    border-radius: 20%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(87, 87, 87, 0.62);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+span.stars,
+span.stars span {
+    display: block;
+    background: url("/static/cafe.png") 0 -12px repeat-x;
+    width: 80px;
+    height: 16px;
+}
+
+span.stars span {
+    background-position: 0 0;
+}
+
+
+#mapid {
+    margin-top: 40px;
+    width: 1200px;
+    height: 650px;
+    border-radius: 20px;
+}
+
+/* The css code for zoom buttons on the map */
+.leaflet-control-zoom-in {
+    font: bold 18px 'Lucida Console', Monaco, monospace;
+    text-indent: 1px;
+
+}
+
+.leaflet-control-zoom-out {
+    font: bold 18px 'Lucida Console', Monaco, monospace;
+    text-indent: 1px;
+
+}
